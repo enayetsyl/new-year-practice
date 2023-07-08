@@ -1,64 +1,212 @@
 /* Common style */
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Work Sans;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0px auto;
     height: 100%;
 }
-.head-color{
-    color:  #151414;
+
+.head-color {
+    color: #151414;
 }
-.p-color{
-    color:  #444343;
+
+.p-color {
+    color: #444343;
 }
-.btn{
-padding: 20px 25px;
-border-radius: 5px;
+
+.btn {
+    padding: 20px 25px;
+    border-radius: 5px;
 }
+
+.s-one,
+.s-two,
+.s-three,
+footer {
+    margin-top: 200px;
+}
+
 /* Header Style */
-header{
+header {
     background-image: url(./images/banner/banner2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
-.head-design{
+
+.head-design {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
-.head-content{
+
+.head-content {
     width: 50%;
     text-align: right;
-    }
-.btn-head{
-    background-color: #F15B22;;
+}
+
+.btn-head {
+    background-color: #F15B22;
+    ;
     color: white;
     font-size: 20px;
     border-color: #F15B22;
 
 }
-.head-title{
+
+.head-title {
     font-size: 65px;
     padding-bottom: 24px;
 }
-.p-head{
+
+.p-head {
     padding-bottom: 32px;
 }
 
+
 /* Section One Style */
 
+.s-one-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-one-content {
+    padding: 0 150px;
+    text-align: left;
+
+}
+
+.s-one-content li {
+    list-style: none;
+    padding-bottom: 8px;
+}
+
+.s-one-content p {
+    padding-bottom: 20px;
+    /* padding-right: 50px; */
+    text-align: justify;
+}
+
+.s-one-title {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
 
 /* Section Two Style */
+.s-two-flex {
+    display: flex;
+    justify-content: space-between;
+}
 
+.box {
+    text-align: center;
+}
+
+.s-two-title {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.stip {
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.sthp {
+    padding-bottom: 16px;
+    font-size: 25px`;
+}
 
 /* Section Three Style */
 
+.s-three-div {
+    background-image: url(./images/watch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.s-three-content {
+    padding: 50px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+}
+
+.sthh {
+    font-size: 40px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.s-three-btn {
+    font-size: 20px;
+    color: #F15B22;
+    border-color: white;
+    padding: 15px 20px;
+}
+
 
 /* Footer Style */
+footer{
+    background-color: #151414;
+    height: 80vh;
+    align-items: center;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+.fhead{
+    font-size: 45px;
+    padding-bottom: 40px;
+    color:#f8f8f8;
+}
+.shead{
+    font-size: 25px;
+    color:#f8f8f8;
+    padding-bottom: 20px;
+}
+
+.footer-btn{
+    font-size: 20px;
+    padding: 20px 30px;
+    color: #F15B22;
+    background-color:#fff;
+}
+.lh{
+    line-height: 26px;
+}
+.inp{
+    padding: 20px 22px;
+    font-size: 18px;
+    color: #f8f8f8;
+    background-color: black;
+    border-radius: 10px;
+    border-color: white;
+    margin-bottom: 20px;    
+    font-weight: bold;
+}
+
+.fp{
+    padding-bottom: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer-content img{
+    padding-left: 20px;
+}
