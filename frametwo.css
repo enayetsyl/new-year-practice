@@ -4,10 +4,53 @@
     padding: 0px;
     font-family: Work Sans;
 }
-
-
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+    height: 100%;
+}
+.head-color{
+    color:  #151414;
+}
+.p-color{
+    color:  #444343;
+}
+.btn{
+padding: 20px 25px;
+border-radius: 5px;
+}
 /* Header Style */
+header{
+    background-image: url(./images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.head-design{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.head-content{
+    width: 50%;
+    text-align: right;
+    }
+.btn-head{
+    background-color: #F15B22;;
+    color: white;
+    font-size: 20px;
+    border-color: #F15B22;
 
+}
+.head-title{
+    font-size: 65px;
+    padding-bottom: 24px;
+}
+.p-head{
+    padding-bottom: 32px;
+}
 
 /* Section One Style */
 
