@@ -1,0 +1,78 @@
+/* common css*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*header design*/
+.header {
+    /* display: flex;
+    align-items: center;
+    justify-content: right; */
+    height: 100vh;
+    background-image: url(./images/banner/banner1.png);
+    background-repeat: no-repeat;
+    /* background-position: left; */
+    background-size: contain;
+    padding: 162px 230px 162px 845px;
+}
+
+.head-content {
+    text-align: right;
+}
+
+.head-title {
+    color: #151414;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 65px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.head-desc {
+    padding-bottom: 32px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn {
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 85px;
+    color: #444343;
+    background-image: url(./images/person.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bodyimg{
+    padding-left: 200px;
+    background-position: ;
+}
+.body-content{
+    padding-right: 300px;
+}
+.body-title{
+    padding-bottom: 24px;
+    color: #151414;
+}
+.p-content{
+    padding-bottom: 16px;
+}
+.p-list > li{
+    padding-bottom: 8px;
+}
