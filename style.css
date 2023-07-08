@@ -57,11 +57,11 @@ body {
     background-image: url(./images/person.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left
+    ;
 }
 .bodyimg{
     padding-left: 200px;
-    background-position: ;
 }
 .body-content{
     padding-right: 300px;
@@ -76,3 +76,9 @@ body {
 .p-list > li{
     padding-bottom: 8px;
 }
+.box-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+     
